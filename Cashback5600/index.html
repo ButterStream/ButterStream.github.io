@@ -1,0 +1,105 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Norton Cashback</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75784505-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+       
+    <body>
+    <!--Start of Mobile Menu-->
+               <div class="mob-menu-wrapper" id="mob-menu-wrapper">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="how-to-claim.html">How to claim</a></li>
+                      <li><a href="terms-and-conditions.html">Terms & conditions</a></li>
+                        <li><a href="faq.html">Frequently asked questions</a></li>
+                        
+                        <li><a href="help.html">Need Help?</a></li>
+                       
+                  </ul>
+                  <div class="ribbon">
+                     <a id="open_menu" href="#mob-menu-wrapper">OPEN MENU</a>
+                     <a id="hide_menu" href="#">HIDE MENU</a>
+                  </div>
+               </div>
+               <!--End of Mobile Menu-->
+        <div class="wrapper">          
+            <header class="page-header">
+                <div class="logo-wrapper">
+                     <div class="logo">
+                        <a href="/"><img src="img/logo.png" alt="Symantec Logo" /></a><br />
+                     </div>
+
+                     <div class="topper">
+                     <img src="img/img-topper.jpg" />
+                     </div>
+                     </div>
+                <nav class="main-nav" role="primary">
+                    <ul>
+                        <li><a href="index.html" class="active-link">Home</a></li>
+                     <li><a href="how-to-claim.html">How to claim</a></li>
+                      <li><a href="terms-and-conditions.html">Terms & conditions</a></li>
+                        <li><a href="faq.html">Frequently asked questions</a></li>
+                        
+                        <li><a href="help.html">Need Help?</a></li>
+                    </ul>
+                </nav>
+           </header>
+           <section id="primary-content" class="homepage">
+                <img src="img/homepage-hero.jpg" class="desktop"/>
+             <img src="img/homepage-hero-mobile.jpg" class="mobile"/>
+                <div class="homepage-claim-now">
+                    <a id="opener" href="#" title="Claim Now" class="modal-button">
+                      Claim cash back now
+                    </a>            
+                </div>
+           </section>
+
+            <footer class="page-footer">
+                <div class="fine-print">
+                    * See <a href="terms-and-conditions.html">Terms & Conditions</a> for full details. The offer is open to Australian and New Zealand residents only. Employees of Symantec and their immediate families, retailers of Norton/Symantec products including retailer staff, agencies or anyone connected with the administration of the promotion are not eligible. Limit of 1 claim per valid full-version product purchased, up to a maximum of 1 claim per person, and 3 claims per household/registered business address. Allow 6-10 weeks for rebate to be processed. Click <a href="terms-and-conditions.html">here</a> for full details.
+                </div>
+            </footer>
+        </div>       
+        <div id="dialog">
+            <strong>In order to redeem your offer, please ensure you:</strong>
+            <ul>
+            <li>have installed and activated an eligible product. If you need help confirming this, <a href="faq.html">please see FAQ</a>.</li>
+            <li>have the promotion code <strong class="emphasis">cashback1116</strong> – you will need to enter this on a subsequent screen</li>
+            <li>have your 25-digit product key from your newly purchased product. If you’re having trouble finding this, <a href="faq.html">please see FAQ</a>.</li>
+            <li>live in Australia or New Zealand</li>
+            <li>are not an employee of Symantec and their immediate families, retailers of Norton/Symantec products including retailer staff, agencies or anyone connected with the administration of this promotion</li>
+            </ul>
+            <a href="#" class="modal-button">OK – I’m ready to proceed</a>
+        </div>       
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <script>
+            $( "#dialog" ).dialog({ autoOpen: false, modal: true, width: 800, height: 440 });
+            $( "#opener" ).click(function() {
+              $( "#dialog" ).dialog( "open" );
+            });
+        </script>    
+    </body>
+</html>
